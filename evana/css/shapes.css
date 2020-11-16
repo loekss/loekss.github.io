@@ -1,0 +1,173 @@
+.shapes {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
+
+.shapes img, span {
+	position: absolute;
+}
+
+.shapes span {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	color: rgba(84, 84, 84, 0.122);
+	font-size: 505px;
+	left: 53%;
+	top: 12vh;
+}
+
+.shapes img:nth-child(2) {
+	top: 38%;
+	right: 470px;
+}
+
+.shapes img:nth-child(3) {
+	top: 52%;
+	right: 130px;
+}
+
+.shapes img:nth-child(4) {
+	top: 72%;
+	right: 550px;
+}
+
+.shapes img:nth-child(5) {
+	top: 50%;
+	right: 650px;
+}
+
+.shapes img:nth-child(6) {
+	top: 40%;
+	left: 52%;
+}
+
+.shapes img:nth-child(7) {
+	top: 40%;
+	right: 280px;
+}
+
+.shapes img:nth-child(8) {
+	top: 15%;
+	right: 720px;
+}
+
+.shapes img:nth-child(9) {
+	bottom: 6%;
+	left: 200px;
+}
+
+.shapes img:nth-child(10) {
+	bottom: 20%;
+	left: 350px;
+}
+
+.shapes img:nth-child(11) {
+	bottom: 25%;
+	left: 100px;
+}
+
+.shapes img:nth-child(12) {
+	bottom: 20%;
+	right: 300px;
+}
+
+.shapes img:nth-child(13) {
+	top: 10%;
+	right: 200px;
+}
+
+.shapes img:nth-child(14) {
+	top: 10%;
+	left: 800px;
+}
+
+.shapes img:nth-child(15) {
+	top: 30%;
+	left: 100px;
+}
+
+.shapes img:nth-child(16) {
+	top: 15%;
+	left: 200px;
+}
+
+.shapes img:nth-child(17) {
+	bottom: 20%;
+	left: 50%;
+}
+
+.shapes img:nth-child(18) {
+	top: 20%;
+	right: 100px;
+}
+
+.shapes img:nth-child(19) {
+	top: 60%;
+	left: 45%;
+}
+
+.shapes img:nth-child(20) {
+	bottom: 10%;
+	right: 100px;
+}
+
+.shapes img:nth-child(21) {
+	top: 58%;
+	left: 180px;
+}
+
+.shapes img:nth-child(22) {
+	bottom: 10%;
+	right: 300px;
+}
+
+.shapes img:nth-child(23) {
+	bottom: 20%;
+	right: 80px;
+}
+
+.shapes img:nth-child(24) {
+	bottom: 10%;
+	left: 700px;
+}
+
+@media (min-width: 3072px) {
+	.shapes {
+		display: none;
+	}
+}
+
+@media (max-width: 1600px) {
+	.shapes img:nth-child(8),
+	.shapes img:nth-child(21),
+	.shapes img:nth-child(11),
+	.shapes img:nth-child(15),
+	.shapes img:nth-child(5),
+	.shapes img:nth-child(17) {
+		display: none;
+	}
+}
+
+@media (max-width: 1366px) {
+	.shapes img:nth-child(19) {
+		display: none;
+	}
+}
+
+@media (max-width: 1280px) {
+	.shapes img:nth-child(12),
+	.shapes img:nth-child(20),
+	.shapes img:nth-child(2),
+	.shapes img:nth-child(13),
+	.shapes img:nth-child(24) {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.shapes {
+		display: none;
+	}
+}

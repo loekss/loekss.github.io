@@ -1,0 +1,86 @@
+@font-face {
+	font-family: "HelveticaNeueBold";
+	src: url("../fonts/HelveticaNeue/HelveticaNeueBold/HelveticaNeueBold.eot");
+	src: url("../fonts/HelveticaNeue/HelveticaNeueBold/HelveticaNeueBold.eot?iefix") format('eot'),
+			url("../fonts/HelveticaNeue/HelveticaNeueBold/HelveticaNeueBold.ttf") format('truetype'),
+			url("../fonts/HelveticaNeue/HelveticaNeueBold/HelveticaNeueBold.woff") format('woff'),
+			url("../fonts/HelveticaNeue/HelveticaNeueBold/HelveticaNeueBold.woff2") format('woff2');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "HelveticaNeueNormal";
+	src: url("../fonts/HelveticaNeue/HelveticaNeueNormal/HelveticaNeueRoman.ttf") format('truetype'),
+			url("../fonts/HelveticaNeue/HelveticaNeueNormal/HelveticaNeueRoman.woff") format('woff'),
+			url("../fonts/HelveticaNeue/HelveticaNeueNormal/HelveticaNeueRoman.woff2") format('woff2');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "HelveticaNeueLight";
+	src: url("../fonts/HelveticaNeue/HelveticaNeueLight/HelveticaNeueLight.ttf") format('truetype'),
+			url("../fonts/HelveticaNeue/HelveticaNeueLight/HelveticaNeueLight.woff") format('woff'),
+			url("../fonts/HelveticaNeue/HelveticaNeueLight/HelveticaNeueLight.woff2") format('woff2');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "OpenSansRegular";
+	src: url("../fonts/OpenSans/OpenSansRegular/OpenSansRegular.eot");
+	src: url("../fonts/OpenSans/OpenSansRegular/OpenSansRegular.eot?iefix") format('eot'),
+			url("../fonts/OpenSans/OpenSansRegular/OpenSansRegular.ttf") format('truetype'),
+			url("../fonts/OpenSans/OpenSansRegular/OpenSansRegular.woff") format('woff');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "MyriadProRegular";
+	src: url("../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.eot");
+	src: url("../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.eot?iefix") format('eot'),
+			url("../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.ttf") format('truetype'),
+			url("../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.woff") format('woff');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "GeorgiaRegular";
+	src: url("../fonts/Georgia/GeorgiaRegular/GeorgiaRegular.eot");
+	src: url("../fonts/Georgia/GeorgiaRegular/GeorgiaRegular.eot?iefix") format('eot'),
+			url("../fonts/Georgia/GeorgiaRegular/GeorgiaRegular.ttf") format('truetype'),
+			url("../fonts/Georgia/GeorgiaRegular/GeorgiaRegular.woff") format('woff');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Font Awesome Solid';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("../fonts/FontAwesome/fa-solid-900.eot");
+  src: url("../fonts/FontAwesome/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../fonts/FontAwesome/fa-solid-900.woff2") format("woff2"), url("../fonts/FontAwesome/fa-solid-900.woff") format("woff"), url("../fonts/FontAwesome/fa-solid-900.ttf") format("truetype"); 
+}
+
+.fas {
+  font-family: 'Font Awesome Solid';
+  font-weight: 900; 
+}
+
+@font-face {
+  font-family: 'Font Awesome Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../fonts/FontAwesome/fa-brands-400.eot");
+  src: url("../fonts/FontAwesome/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../fonts/FontAwesome/fa-brands-400.woff2") format("woff2"), url("../fonts/FontAwesome/fa-brands-400.woff") format("woff"), url("../fonts/FontAwesome/fa-brands-400.ttf") format("truetype"), url("../fonts/FontAwesome/fa-brands-400.svg#fontawesome") format("svg"); 
+}
+
+.fab {
+  font-family: 'Font Awesome Brands';
+  font-weight: 400; 
+}
